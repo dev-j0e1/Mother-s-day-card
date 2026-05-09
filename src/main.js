@@ -237,7 +237,7 @@ const init = () => {
       const item = document.createElement("div")
       item.className = "carousel__item"
       const img = document.createElement("img")
-      img.src = `imgs/${file}`
+      img.src = `${file}`
       item.appendChild(img)
       
       if (idx % 2 === 0) {
